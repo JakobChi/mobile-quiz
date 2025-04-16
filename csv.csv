@@ -1,0 +1,100 @@
+"Welche Besonderheit zeichnet mobile Endgeräte aus?","Hohe Batterielaufzeit","Eingeschränkte Hardwarefunktionen","Touchscreen-Bedienung und Sensorintegration","Starke externe Maus-Unterstützung",c
+"Welcher Sensor ist für Navigation in mobilen Apps essentiell?","Gyroskop","GPS","Näherungssensor","Lichtsensor",b
+"Welche Aussage beschreibt mobile Endgeräte korrekt?","Sie besitzen ein großes, nicht berührungsempfindliches Display.","Sie bieten meist nur eingeschränkte Rechenleistung.","Sie kombinieren Touch-Eingabe mit Sensorintegration.","Sie unterstützen keine drahtlose Kommunikation.",c
+"Was ist ein wesentlicher Vorteil der nativen App-Entwicklung?","Geringere Entwicklungszeit durch gemeinsamen Code.","Optimale Performance und plattformangepasstes Design.","Kein Zugriff auf native APIs.","Unabhängigkeit von Betriebssystemen.",b
+"Was bezeichnet man als Cross-Plattform-Entwicklung?","Entwicklung nativer Apps für eine einzige Plattform.","Nutzung eines Codes für unterschiedliche Plattformen.","Entwicklung ohne Zugriff auf Hardware-Funktionen.","Erstellung von Apps ohne UI-Komponenten.",b
+"Welcher Datentyp gehört zu den primitiven Typen in JavaScript?","Object","Array","String","Function",c
+"Welche Methode wird üblicherweise zur Eigenschaftszugriff in Objekten verwendet?","Dot Notation","Hash-Notation","Parentheses Notation","Colon Notation",a
+"Was repräsentiert der Wert undefined in JavaScript?","Einen Fehlerzustand","Eine explizit zugewiesene Null","Eine Variable ohne zugewiesenen Wert","Ein leerer String",c
+"Welche Funktion dient in JavaScript der Typüberprüfung einer Variable?","parseInt","typeof","toString","instanceof",b
+"Was bewirkt der Einsatz von let in JavaScript?","Die Variable wird global definiert.","Die Variable ist block-scoped.","Der Wert wird konstant.","Variablen können nicht deklariert werden.",b
+"Welcher der folgenden Typen ist kein primitiver Typ in JavaScript?","Boolean","Number","Object","String",c
+"Wie erstellt man ein Array in JavaScript?","Mit {}","Mit []","Mit ()","Mit <>",b
+"Wie definiert man eine Funktion in JavaScript korrekt?","function name() {}","def function name() {}","func name() {}","function: name() {}",a
+"Welche Eigenschaft trifft auf JavaScript-Variablen zu?","Sie benötigen immer einen deklarierten Datentyp.","Sie sind dynamisch typisiert.","Ihr Wert kann niemals geändert werden.","Sie sind nur in Klassen verfügbar.",b
+"Welches Konstrukt erlaubt das Aufteilen von Arrays in mehrere Variablen in JavaScript?","Schleifen","Destructuring","Klassen","ForEach",b
+"Was kennzeichnet eine Arrow Function in JavaScript?","Sie besitzt keine Parameter.","Sie bindet 'this' automatisch.","Sie ist langsamer als normale Funktionen.","Sie kann nicht zurückgegeben werden.",b
+"Mit welchem Operator kann man in JavaScript Arrays oder Objekte kopieren und erweitern?","for-Schleifen","Spread Operator (...)","push()","join()",b
+"Was ermöglichen Template Literals in JavaScript?","Erstellung von regulären Ausdrücken.","Mehrzeilige Strings und Interpolation.","Definition von Konstanten.","Schleifeniteration.",b
+"Zu welchem Zweck dient optional chaining in JavaScript?","Um alle Methoden eines Objektes aufzurufen.","Um sicher auf verschachtelte Eigenschaften zuzugreifen.","Zum Überprüfen der Länge von Arrays.","Zum Deklarieren von Konstanten.",b
+"Was passiert, wenn in JavaScript Default Parameters verwendet werden und kein Wert übergeben wird?","Der Parameter wird zu null.","Es wird ein vordefinierter Wert genutzt.","Ein Fehler tritt auf.","Der Parameter wird undefined.",b
+"Was versteht man in JavaScript unter dem Call Stack?","Ein Speicher für asynchrone Events.","Den Stapelspeicher für auszuführende Funktionen.","Eine API zum DOM-Update.","Eine Methode zur Ausführung von Hintergrundprozessen.",b
+"Welches Konzept ermöglicht asynchrone Abläufe in JavaScript trotz Single-Threading?","Virtual DOM","Event Loop","Memory Heap","Garbage Collection",b
+"Was stellt eine Promise in JavaScript dar?","Ein Werkzeug zur DOM-Manipulation.","Ein Objekt, das einen asynchronen Wert repräsentiert.","Eine Methode zur Wiederholung von Code.","Ein Ereignis-Handler.",b
+"Welche Syntax vereinfacht asynchronen Code in JavaScript?","try/catch","async/await","if/else","forEach",b
+"Wie wird ein Fehler in einer Promise-Kette üblicherweise abgefangen?","Mit .then()","Mit .catch()","Durch den Call Stack","Durch den Event Loop",b
+"Was ist ein Hauptvorteil von TypeScript gegenüber JavaScript?","Dynamische Typisierung.","Statische Typprüfung.","Fehlende Unterstützung für Klassen.","Weniger IDE-Unterstützung.",b
+"Was definiert ein Interface in TypeScript?","Nur Methodensignaturen.","Die Struktur eines Objektes.","Die Werte eines Arrays.","Den Rückgabewert einer Funktion.",b
+"Welche der folgenden Utility-Typen werden in TypeScript verwendet?","Map und Set","Omit und Partial","Promise und async","function und class",b
+"Welcher Typ existiert in TypeScript?","random","unknown","nothing","nullified",b
+"Was bewirkt der Typ any in TypeScript?","Er erschwert die Typprüfung.","Erlaubt jeden Wert ohne Typprüfung.","Ersetzt Interface-Definitionen.","Er erzwingt statische Typen.",b
+"Was ist JSX in React?","Eine eigenständige Programmiersprache.","Ein HTML-ähnlicher Syntax für UI-Komponenten.","Eine Datenbankabfragesprache.","Eine CSS-Erweiterung.",b
+"Was sind Props in React?","Interne Zustandsvariablen.","Daten, die von Eltern an Kindkomponenten übergeben werden.","Benutzerereignisse.","CSS-Klassen.",b
+"Was stellt der Virtual DOM in React dar?","Eine reale Kopie des Browser-DOMs.","Eine in-memory Repräsentation des DOMs zur effizienten Aktualisierung.","Eine Datenbank.","Einen Server.",b
+"Wie definiert man in React eine funktionale Komponente?","function Component() { return <div></div>; }","class Component extends React.Component { render() { return <div></div>; } }","const Component = <div></div>;","function() { return <div></div>; }",a
+"Welche Methode wird in React zur Verwaltung des internen Zustands eingesetzt?","useProps","useState","useEffect","useReducer",b
+"Was ist der Zweck des useEffect-Hooks in React?","Um den Zustand zu initialisieren.","Um Nebenwirkungen in einer Komponente auszuführen.","Um Props zu validieren.","Um Ereignisse zu binden.",b
+"Was beschreibt 'State' in React?","Eine unveränderliche Datenbank.","Den veränderlichen Zustand einer Komponente, der den Renderprozess beeinflusst.","Eine CSS-Eigenschaft.","Einen Typ von Prop.",b
+"Welcher Hook ermöglicht den Zugriff auf einen globalen Kontext in React?","useContext","useReducer","useState","useMemo",a
+"Was ist ein typisches Merkmal von Custom Hooks in React?","Sie sind nur in Klassenkomponenten nutzbar.","Sie sind Funktionen, die Hook-Logik wiederverwendbar machen.","Sie ersetzen die Komponentenhierarchie.","Sie benötigen immer Props.",b
+"Welcher der folgenden Hooks wird untypischerweise für Formularverwaltung in React verwendet?","useState","useEffect","useRef","useContext",d
+"Was ist der Zweck der Bridge in React Native?","Sie rendert CSS.","Sie verbindet JavaScript mit nativen Modulen.","Sie verwaltet den Komponentenstatus.","Sie konvertiert HTML in JSX.",a
+"Was ist ein Hauptvorteil von React Native?","Es erfordert separate Codebasen für iOS und Android.","Es ermöglicht den Zugriff auf plattformspezifische native APIs.","Es unterstützt ausschließlich Webanwendungen.","Es ist nicht kompatibel mit JavaScript.",b
+"Welches React Native Element entspricht am ehesten dem <div> in HTML?","<View>","<Text>","<ScrollView>","<Image>",a
+"Welche Komponente verwendet man in React Native zur Darstellung von Text?","<Text>","<View>","<Button>","<Image>",a
+"Was ermöglicht die Nutzung von ScrollView in React Native?","Statische Inhalte ohne Scrollfunktion.","Anzeigen langer Inhalte durch Scrollen.","Integration von externen Daten.","Optimierung der Performance.",b
+"Was definiert Flexbox in React Native?","Ein System zur Steuerung des einachsigen Layouts.","Ein Datenbanksystem.","Serverseitige Logik.","Eine Animations-Syntax.",a
+"Welcher Flexbox-Wert richtet Elemente entlang der Hauptachse zentriert aus?","flex-start","flex-end","center","space-between",c
+"Welche Eigenschaft bestimmt die Anordnung von Elementen in Zeilen oder Spalten in Flexbox?","flex-direction","flex-wrap","align-items","justify-content",a
+"Was ist Nativewind in Bezug auf React Native?","Ein Framework zur Zustandverwaltung.","Eine Utility-first CSS-Lösung für Styling.","Eine neue Programmiersprache.","Ein Routing-Framework.",b
+"Wozu dient Tailwind CSS in mobilen Anwendungen?","Zur Entwicklung von Backend-Logik.","Zum schnellen und konsistenten Erstellen von UI-Designs.","Zur Anbindung von Datenbanken.","Zur Erstellung von API-Endpunkten.",b
+"Welches Tool wird üblicherweise zum Erstellen eines neuen Expo-Projekts verwendet?","npx create-react-app","npx create-expo-app","npm init expo","expo build",b
+"Welcher Befehl dient zur Installation von Expo CLI?","npm install -g expo-cli","npm create expo-cli","expo install cli","install expo-cli",a
+"Welche Rolle spielt Git in der mobilen Entwicklung?","Es dient als Versionskontrollsystem.","Es wird zur Codeausführung verwendet.","Es ist ein UI-Framework.","Es ersetzt den Code-Editor.",a
+"Was benötigt man zusätzlich zur Expo CLI zur Entwicklung auf Android?","Xcode","Android Studio mit Emulator","Visual Studio Code","Sublime Text",b
+"Welche Umgebung ermöglicht das Testen von iOS-Apps auf macOS?","Android Studio","Expo Go","Xcode Simulator","Git Bash",c
+"Was kennzeichnet den dateibasierten Routing-Ansatz im Expo Router?","Jede Datei im App-Verzeichnis wird zur Route.","Routen werden manuell in einer Konfigurationsdatei definiert.","Es ist nur für Webanwendungen verfügbar.","Es ersetzt alle nativen Navigationselemente.",a
+"Welche Datei dient als Haupteintrittspunkt in einem Routenverzeichnis im Expo Router?","app.js","index.tsx","_layout.tsx","router.tsx",b
+"Wie werden dynamische Routen im Expo Router benannt?","Mit eckigen Klammern, z.B. [id].tsx","Mit einem Unterstrich, z.B. _id.tsx","Mit einem Dollarzeichen, z.B. $id.tsx","Mit einem Bindestrich, z.B. id-.tsx",a
+"Was beschreibt eine Catch-All Route im Expo Router?","Eine Route, die nur auf feste Pfade reagiert.","Eine Route, die mehrere URL-Segmente erfasst.","Eine Route, die ausschließlich für Web definiert ist.","Eine Route ohne Parameter.",b
+"Welcher Hook wird im Expo Router typischerweise genutzt, um URL-Parameter abzurufen?","useParams","useRouter","useSearchParams","useRouteMatch",c
+"Was ist ein Hauptvorteil der Stack Navigation im Expo Router?","Sie ermöglicht parallele Datenverarbeitung.","Sie bietet hierarchische Navigation mit einer Zurück-Schaltfläche.","Sie ersetzt die Tab Navigation.","Sie erlaubt keine Bildschirmenavigation.",b
+"Welches Element kapselt typischerweise alle Tabs in der Tab Navigation?","<Stack>","<Tabs>","<View>","<Router>",b
+"Welches Navigationsmuster wird bei der Verwendung von Tabs eingesetzt?","Ein einzelner langer Bildschirm.","Registerkarten für unterschiedliche App-Bereiche.","Eine Baumstruktur.","Eine Konsolenausgabe.",b
+"Was realisiert die Link-Komponente im Expo Router?","API-Aufrufe.","Navigation zwischen Views oder Seiten.","Datenbankverbindungen.","Lokales Speichern von Dateien.",b
+"Welcher Vorteil bietet Stack Navigation?","Sie ermöglicht Navigation ohne Hierarchie.","Sie bietet standardmäßig eine Zurück-Funktion.","Sie eliminiert den Bedarf an Hooks.","Sie benötigt keine Konfiguration.",b
+"Welches der folgenden Modelle gehört zu den Cloud Service Modellen?","FaaS","SaaS","DaaS","BaaS",b
+"Was bezeichnet IaaS im Cloud Computing?","Internet as a Service.","Infrastructure as a Service.","Integration as a Service.","Interface as a Service.",b
+"Welches Service-Modell bietet fertige Anwendungen zur direkten Nutzung?","PaaS","IaaS","SaaS","CaaS",c
+"Welches Modell wird häufig Entwicklern als Entwicklungsplattform angeboten?","IaaS","PaaS","SaaS","TaaS",b
+"Was ist ein wesentlicher Vorteil von Cloud Computing?","Erhöhung lokaler Hardwarekosten.","Reduktion von Hardwarekosten und globale Skalierbarkeit.","Einschränkung auf lokale Netzwerke.","Hohe Konfigurationskomplexität.",b
+"Welcher Firebase-Dienst unterstützt die Anmeldung per E-Mail und Passwort?","Firebase Firestore","Firebase Authentication","Firebase Storage","Firebase Cloud Functions",b
+"Welche der folgenden Methoden gehört nicht zu Firebase Authentication?","Telefonanmeldung","Anonyme Anmeldung","Social Media Anmeldung","Lokale Datei-Anmeldung",d
+"Welche Methode ermöglicht in Firebase das Überwachen des Authentifizierungsstatus?","onDataChange()","onAuthStateChanged()","checkUser()","signOut()",b
+"Was ist der Hauptzweck von Firebase Authentication?","Verwaltung von Datenbankabfragen.","Sichere Authentifizierung und Benutzerverwaltung.","Hosting von Webanwendungen.","Steuerung von Cloud Functions.",b
+"Was ist Firestore?","Eine SQL-Datenbank.","Eine NoSQL-Datenbank mit Echtzeit-Synchronisation.","Ein Authentifizierungsdienst.","Ein Framework für Cloud Functions.",b
+"Welche Eigenschaft zeichnet Firebase Firestore aus?","Feste Schema-Vorgabe.","Flexibilität und Echtzeit-Abgleich.","Ausschließlich offline verfügbar.","Nur für Webanwendungen nutzbar.",b
+"Wie sind in Firestore Daten typischerweise organisiert?","In Tabellen und Zeilen.","In Dokumenten innerhalb von Sammlungen.","In CSV-Dateien.","In relationalen Datenbanken.",b
+"Welche Funktion bietet Firestore bezüglich Offline-Unterstützung?","Keine Offline-Funktion.","Automatische Synchronisation nach Wiederverbindung.","Manueller Datenabgleich.","Nur Lesezugriff.",b
+"Was wird mit Firebase Security Rules gesteuert?","UI-Komponenten der App.","Zugriff auf Firestore-Daten.","Expo-Funktionen.","Netzwerkgeschwindigkeit.",b
+"Was ermöglicht Firebase Storage?","Speicherung und Freigabe von Dateien wie Bildern und Videos.","Verwaltung von Benutzerdaten.","Erstellung von Cloud Functions.","Steuerung von Authentifizierungsprozessen.",a
+"Welche Eigenschaft ist bei Firebase Storage besonders wichtig?","Keine Integration mit Authentication.","Anpassbare Sicherheitsregeln basierend auf Benutzer-Authentifizierung.","Unbegrenzter Zugriff ohne Prüfung.","Unterstützung nur für Textdateien.",b
+"Welche Dateitypen können in Firebase Storage gespeichert werden?","Nur Bilder.","Bilder, Videos, Audiodateien und Dokumente.","Nur Videos.","Nur PDF-Dokumente.",b
+"Was bietet Firebase Cloud Functions?","Serverlose Ausführung von benutzerdefinierter Logik.","Rendering von UI-Komponenten.","Lokales Speichern von Daten.","Authentifizierungsmethoden.",a
+"Wie werden Cloud Functions typischerweise ausgelöst?","Durch Benutzerinteraktionen im Frontend.","Durch HTTP-Anfragen oder Datenänderungen in Firestore.","Manuelle Serveraufrufe.","Lokale Datenänderungen ohne Cloud-Anbindung.",b
+"Welcher Vorteil bringt die Firebase Emulator Suite?","Testen von Firebase-Diensten ohne Cloud-Verbindung.","Erhöhte Produktionsgeschwindigkeit.","Verbessertes UI-Design.","Verwaltung von Benutzerrechten.",a
+"Was benötigt man typischerweise zur Integration eines Firebase-Projekts in eine App?","Eine separate Datenbank-Software.","Firebase Config und Firebase CLI.","Nur Firebase Storage.","Lokale Serverinstallation.",b
+"Wie registriert man eine App in Firebase?","Durch Hinzufügen eines neuen Benutzerkontos in Firestore.","Durch Einrichten einer Firebase-App und Einbindung der Konfigurationsdatei.","Durch Verwendung von Expo CLI.","Durch Erstellen eines Git-Repositories.",b
+"Was erleichtert die Integration von Firebase in mobile Apps?","Manuelles Schreiben von HTTP-Anfragen.","Verwendung plattformübergreifender SDKs.","Ignorieren von Sicherheitsaspekten.","Ausschließliche Nutzung von Cloud Functions.",b
+"Welche Komponente ermöglicht serverlose Logik in Firebase?","Firestore","Cloud Functions","Storage","Authentication",b
+"Welches Tool unterstützt die lokale Simulation von Firebase-Diensten?","Firebase Emulator Suite","Expo Go","Xcode","Android Studio",a
+"Welche Aussage trifft auf Firebase Authentication zu?","Es unterstützt nur E-Mail/Passwort-Anmeldungen.","Es bietet mehrere Methoden inkl. Social Media-Login.","Es ist ausschließlich für Webanwendungen verfügbar.","Es ist nur für Cloud Functions zuständig.",b
+"Welche Eigenschaft macht Firebase Firestore besonders nützlich für mobile Apps?","Statische Datenbankabfragen.","Echtzeit-Synchronisation.","Komplexe relationale Verknüpfungen.","Nur read-only Zugriff.",b
+"Wofür steht PaaS?","Platform as a Service","Product as a Service","Program as a Service","Protocol as a Service",a
+"Welches Cloud-Service-Modell ermöglicht die Nutzung fertiger Software im Internet?","IaaS","PaaS","SaaS","MaaS",c
+"Welcher Aspekt verbessert die Entwicklererfahrung in TypeScript besonders?","Häufigere Laufzeitfehler durch dynamische Typen.","Frühzeitige Fehlererkennung durch statische Typprüfung.","Keine Unterstützung für moderne JavaScript-Features.","Eingeschränkte Wiederverwendbarkeit des Codes.",b
+"Was ermöglichen Utility-Typen in TypeScript?","Definition neuer primitiver Datentypen.","Modifikation oder Ausschluss von Teilen existierender Typen.","Sie sind identisch mit JavaScript-Objekten.","Sie sind nur in Klassen nutzbar.",b
+"Welche Syntax deklariert einen optionalen Parameter in einem TypeScript-Interface?","parameter: type","parameter?: type","parameter = type","parameter -> type",b
+"Welche React Native Komponente wird zur Darstellung von Bildern verwendet?","<Text>","<Button>","<Image>","<View>",c
+"Was ermöglicht die Verwendung von useContext in React?","Wiederverwendung zustandsloser Komponenten.","Zugriff auf einen globalen Kontext innerhalb von Komponenten.","Das Schreiben asynchroner Funktionen.","Erstellung benutzerdefinierter Hooks.",b
+"Welcher Aspekt gehört nicht zur mobilen Softwareentwicklung?","Berücksichtigung von Touch-Bedienung und Sensoren.","Einbindung nativer APIs über die Bridge in React Native.","Verwendung statischer HTML-Seiten für die App.","Anpassung an unterschiedliche Endgeräte und Betriebssysteme.",c
